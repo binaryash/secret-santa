@@ -1,0 +1,38 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache and log files
+*.log
+*.sqlite3
+
+# FastAPI specific
+*.db
+*.json
+
+# Ignore local development files
+local_settings.py
+
+# VSCode and other editor settings
+.vscode/
+.idea/
+
+# Ignore static and temporary files
+*.bak
+*.swp
+*.tmp
+*.out
+
+# Ignore generated files
+Secret_Santa_Assignments.xlsx
