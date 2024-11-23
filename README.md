@@ -61,16 +61,18 @@ Ensure you have the following installed:
 ```
 .
 ├── app.py               # Main FastAPI application
-├── templates
+├── templates/
 │   └── index.html       # Tailwind-powered UI template
-├── santa
+├── santa/
 │   ├── __init__.py
-│   ├── secret_santa.py  # Core assignment logic
-├── tests
+│   ├── secret_santa.py  # Core logic for assignments
+├── tests/
 │   ├── __init__.py
-│   └── test_secret_santa.py  # Unit tests for validation
+│   └── test_secret_santa.py  # Unit tests for functionality
+├── docs/
+│   └── docs.md          # Full documentation
 ├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
+└── README.md            # Basic overview
 ```
 
 ---
