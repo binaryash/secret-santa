@@ -109,7 +109,7 @@ Example:
 
 # Output
 
-![Output page](image.png)
+![Output page](./docs/image.png)
 
 ---
 ## Running Tests
