@@ -78,6 +78,7 @@ Ensure you have the following installed:
 ## Input File Format
 
 ### Employee File (Required)
+
 An Excel file with the following columns:
 - **Employee_Name**: Full name of the employee.
 - **Employee_EmailID**: Email ID of the employee.
@@ -90,6 +91,7 @@ Example:
 | Charlie       | charlie@example.com   |
 
 ### Previous Assignments File (Optional)
+
 An Excel file with the following columns:
 - **Employee_Name**: Full name of the employee.
 - **Secret_Child_Name**: Secret Santa assignment from the previous year.
@@ -103,6 +105,11 @@ Example:
 
 ---
 
+# Output
+
+![Output page](image.png)
+
+---
 ## Running Tests
 
 To ensure the tool works as expected, run the provided unit tests:
